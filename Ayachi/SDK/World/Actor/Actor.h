@@ -13,11 +13,32 @@
 #include "ActorDimensionRef.h"
 #include "../Entity/EntityContext.h"
 #include "../Entity/Components/AABBShapeComponent.h"
+#include "../Entity/Components/ActorDiedComponent.h"
+#include "../Entity/Components/ActorGameTypeComponent.h"
+#include "../Entity/Components/ActorHeadRotationComponent.h"
 #include "../Entity/Components/ActorRotationComponent.h"
 #include "../Entity/Components/ActorTypeComponent.h"
+#include "../Entity/Components/ActorUniqueIDComponent.h"
+#include "../Entity/Components/ActorWalkAnimationComponent.h"
+#include "../Entity/Components/AgeableComponent.h"
+#include "../Entity/Components/ApplyGravityComponent.h"
+#include "../Entity/Components/AttackAnimationComponent.h"
+#include "../Entity/Components/FallDistanceComponent.h"
+#include "../Entity/Components/FreezeImmuneFlagComponent.h"
+#include "../Entity/Components/HorizontalCollisionFlagComponent.h"
+#include "../Entity/Components/IsDeadFlagComponent.h"
+#include "../Entity/Components/JumpTicksComponent.h"
+#include "../Entity/Components/MobHurtTimeComponent.h"
+#include "../Entity/Components/MobBodyRotationComponent.h"
+#include "../Entity/Components/MovementSpeedComponent.h"
+#include "../Entity/Components/OnFireComponent.h"
 #include "../Entity/Components/OnGroundFlagComponent.h"
+#include "../Entity/Components/RenderRotationComponent.h"
 #include "../Entity/Components/RuntimeIDComponent.h"
 #include "../Entity/Components/StateVectorComponent.h"
+#include "../Entity/Components/SneakingComponent.h"
+#include "../Entity/Components/VerticalCollisionFlagComponent.h"
+#include "../Entity/Components/WasOnGroundFlagComponent.h"
 
 class Dimension;
 class ItemStack;
@@ -37,6 +58,7 @@ public:
 	}
 	EntityContext& getEntityContext() { return entityContext(); }
 	const EntityContext& getEntityContext() const { return entityContext(); }
+	EntityId getEntityId() const noexcept { return entityContext().getEntityId(); }
 
 	CLASS_MEMBER(std::string, alias, 0xB0);
 	CLASS_MEMBER(Vec3<float>, sentDelta, 0x160);
@@ -198,12 +220,17 @@ public:
 
 	template<typename T>
 	T* tryGetComponent() {
-		return entityContext().enttRegistry.try_get<T>(entityContext().entity);
+		return entityContext().tryGetComponent<T>();
 	}
 
 	template<typename T>
 	const T* tryGetComponent() const {
-		return entityContext().enttRegistry.try_get<T>(entityContext().entity);
+		return entityContext().tryGetComponent<T>();
+	}
+
+	template<typename T>
+	bool hasComponent() const {
+		return entityContext().hasComponent<T>();
 	}
 
 private:

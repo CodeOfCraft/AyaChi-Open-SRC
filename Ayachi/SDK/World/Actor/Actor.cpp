@@ -94,7 +94,7 @@ bool Actor::isItem() const {
 }
 
 bool Actor::isOnGround() const {
-	return entityContext().enttRegistry.all_of<OnGroundFlagComponent>(entityContext().entity);
+	return hasComponent<OnGroundFlagComponent>();
 }
 
 void Actor::remove() {

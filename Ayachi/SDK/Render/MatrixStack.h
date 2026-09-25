@@ -11,6 +11,15 @@ public:
 	std::deque<Matrix> stack;
 	std::optional<std::uint64_t> sortOrigin;
 	bool isDirty;
+
+	[[nodiscard]] Matrix& getTop() {
+		isDirty = true;
+		return stack.back();
+	}
+
+	[[nodiscard]] const Matrix& top() const {
+		return stack.back();
+	}
 };
 
 static_assert(sizeof(std::deque<Matrix>) == 0x28);

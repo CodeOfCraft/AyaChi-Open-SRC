@@ -2073,6 +2073,9 @@
     <ClInclude Include="SDK\World\Entity\Components\AABBShapeComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorDiedComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\ActorGameTypeComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
@@ -2088,13 +2091,43 @@
     <ClInclude Include="SDK\World\Entity\Components\ActorUniqueIDComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorWalkAnimationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\AgeableComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ApplyGravityComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\AttackAnimationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\FallDistanceComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\FreezeImmuneFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\HorizontalCollisionFlagComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\IsDeadFlagComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\JumpTicksComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\MobHurtTimeComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\MobBodyRotationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\MovementSpeedComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\OnFireComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\OnGroundFlagComponent.h">
@@ -2107,6 +2140,9 @@
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\StateVectorComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\SneakingComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\VerticalCollisionFlagComponent.h">

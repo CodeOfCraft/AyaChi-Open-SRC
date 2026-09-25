@@ -79,6 +79,10 @@ namespace GameData {
 	namespace VTableIndex {
 		namespace Inventory {
 			inline constexpr int getItem = 0x07;
+			inline constexpr int setItem = 0x0C;
+			inline constexpr int removeItem = 0x0E;
+			inline constexpr int getContainerSize = 0x14;
+			inline constexpr int getMaxStackSize = 0x15;
 		}
 
 		namespace Item {

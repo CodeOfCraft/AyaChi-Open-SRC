@@ -1,0 +1,2644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{68707D57-6D82-25E9-EA2A-EC01DBADF5E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers">
+      <UniqueIdentifier>{99AA2B59-C32C-027D-4DD8-F828ABD9AF8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\CommandManager">
+      <UniqueIdentifier>{628C1DE3-CABF-1316-F178-44A946BCC684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\CommandManager\Commands">
+      <UniqueIdentifier>{DE0066D6-8E13-179B-473C-2487180AF505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ConfigManager">
+      <UniqueIdentifier>{4A190963-0FB4-E5C5-D31D-89731E5C3C5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\FontManager">
+      <UniqueIdentifier>{470AD1D5-B738-7215-9251-BDDC064AB1BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\FriendManager">
+      <UniqueIdentifier>{AC0A806C-B256-3328-20ED-FB352262F09B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager">
+      <UniqueIdentifier>{B0C54421-94A9-B177-DFF1-11FAD5BCC8BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks">
+      <UniqueIdentifier>{FDF8D4B9-9180-3F05-77EF-FE2564262A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\DirectX">
+      <UniqueIdentifier>{AE629AC7-E6C4-05A3-0B13-49C438EBD18D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\Game">
+      <UniqueIdentifier>{1DAF4380-CD31-3945-D1D1-A1544B6CB347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\Input">
+      <UniqueIdentifier>{6AA0E525-0EEB-ED01-D5E8-BA2F964E56B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\Network">
+      <UniqueIdentifier>{94A231D0-84FA-6EF0-EFED-F713A4D77315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\Options">
+      <UniqueIdentifier>{382EBFA8-1A9E-3E0C-7083-D858F2EEDF6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\Render">
+      <UniqueIdentifier>{6CF19DE7-7375-F35B-1C30-55C48FA924EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\HookManager\Hooks\World">
+      <UniqueIdentifier>{2F7EC353-8AE8-3001-986D-F254014D59CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\InputManager">
+      <UniqueIdentifier>{C329FE6A-F9D9-81D1-7A40-54493D02ED08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager">
+      <UniqueIdentifier>{6C07F840-73E8-4966-A3B3-03C2A8DD3FD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules">
+      <UniqueIdentifier>{C93A95C4-5937-6ADE-A3C1-9CE742B01C38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\Category">
+      <UniqueIdentifier>{CB1966FA-C5AF-CC81-60DB-89341682C0F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\Category\Client">
+      <UniqueIdentifier>{52E06B4B-7FC5-899C-6B8B-FDB536359D07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\Category\Misc">
+      <UniqueIdentifier>{389AEDD2-9CAF-B202-F2E7-E001E87BCA25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\Category\Movement">
+      <UniqueIdentifier>{7CB74463-78A3-1692-A2DF-14018A734DE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\Category\Render">
+      <UniqueIdentifier>{21ED8B68-9EB3-51C6-9A38-4E8EB4D8D689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\ModuleBase">
+      <UniqueIdentifier>{36097240-1F9E-11FB-FCB3-DA46F5136E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings">
+      <UniqueIdentifier>{3520C2AF-F39B-C14F-F20F-D6F9672C89D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Managers\NotificationManager">
+      <UniqueIdentifier>{94B1CAC3-DD5F-326D-0B99-6E2729F3FC6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{A97121D1-0860-7334-984B-35B1CA3E5D94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\curl">
+      <UniqueIdentifier>{4CE764CD-5587-25DE-F681-F48538A8BB31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\entt">
+      <UniqueIdentifier>{2364E5B4-7F4A-CEB9-630A-83E241773AFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\fonts">
+      <UniqueIdentifier>{8CAFBEE0-16C8-0054-9F96-EF662F683375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\glm">
+      <UniqueIdentifier>{E5A4A663-3BEA-0F13-F35B-111355D0DAC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\imgui">
+      <UniqueIdentifier>{BA34FB7F-F563-1AEB-23DA-F6D544ACF8F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\kiero">
+      <UniqueIdentifier>{9AAC9F73-87F3-E44A-D4D4-6EF371C14EE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\libhat">
+      <UniqueIdentifier>{295345EC-1F71-1869-2E44-25866DE16BBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook">
+      <UniqueIdentifier>{BFB37EC2-5278-A380-8964-CC84C4F4792F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{E90AB207-0470-C28F-002D-756F27ACC863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{5E3C0EF2-C054-3DAB-375D-660B3F896F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Core">
+      <UniqueIdentifier>{0428F658-C0F4-D6F9-E4F9-2C4EA345B9BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Core\Client">
+      <UniqueIdentifier>{4AD1EB29-2295-3B5B-762A-CDDFFEACACCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Core\GUI">
+      <UniqueIdentifier>{0EF819AC-F550-2EB3-0E66-82570F2DF9FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Core\Types">
+      <UniqueIdentifier>{BA30CB2D-EE13-BED1-3E6E-FC83295B11E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Input">
+      <UniqueIdentifier>{C4304591-8E37-6860-1FD3-4114B1E2834C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Network">
+      <UniqueIdentifier>{758260B1-C3FB-21D6-8E21-C6AE3BE47ABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Network\Packet">
+      <UniqueIdentifier>{41EBF26E-868C-8B3D-F187-0A67AFBD6C03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Render">
+      <UniqueIdentifier>{45476638-05AD-EB7A-9F68-24BF6FB35642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Runtime">
+      <UniqueIdentifier>{B32BE18D-380D-8E37-AB06-BB4CC68C23F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Text">
+      <UniqueIdentifier>{4A639CC6-82A5-6EFC-F870-2C2539B79879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World">
+      <UniqueIdentifier>{846D238E-7E7D-9C63-B89C-71D809851DFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Actor">
+      <UniqueIdentifier>{05DBB73A-288B-DCDD-5346-32F4D96818E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Actor\Item">
+      <UniqueIdentifier>{844AA40F-7699-F909-231F-DB59DEF8C85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Actor\Player">
+      <UniqueIdentifier>{ABBCFED7-DBFF-573B-82ED-0D5B2F00C0F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Entity">
+      <UniqueIdentifier>{269EFEA6-C052-BFF9-4891-9ACDCE3CF667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Entity\Components">
+      <UniqueIdentifier>{4D2B8C91-E96A-2A3C-71EF-CE54DC3FD6BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\GameMode">
+      <UniqueIdentifier>{8A40EF1C-8BFF-000A-116B-32CD6CB7DD56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Inventory">
+      <UniqueIdentifier>{906EB630-6F3E-3982-BEEF-31910BC99C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Item">
+      <UniqueIdentifier>{787D4D60-3569-5229-AA9D-2B37B8EB63DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Level">
+      <UniqueIdentifier>{74FA39D7-85B4-B28E-CE5A-3F4E0D58615B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\World\Level\Block">
+      <UniqueIdentifier>{2987C1FC-5C49-5307-8E95-C2AA4D2E9478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{33A270A4-B326-1D83-D974-DFC1116119C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client\Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\CommandManager.cpp">
+      <Filter>Client\Managers\CommandManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\BindCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\ClientNameCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\CommandBase.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\ConfigCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\DevTools.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\EjectCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\FriendCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\ToggleCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\CommandManager\Commands\UnbindCommand.cpp">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ConfigManager\ConfigManager.cpp">
+      <Filter>Client\Managers\ConfigManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\FontManager\FontManager.cpp">
+      <Filter>Client\Managers\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\FriendManager\FriendManager.cpp">
+      <Filter>Client\Managers\FriendManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\HookManager.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\GameAndInputHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\OptionAndWorldHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\RenderHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\UIHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\DirectXHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\NetworkHooks.cpp">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\Hooks\FuncHook.cpp">
+      <Filter>Client\Managers\HookManager\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\Hooks\DirectX\PresentHook.cpp">
+      <Filter>Client\Managers\HookManager\Hooks\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\HookManager\Hooks\Render\ItemRendererRenderHook.cpp">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\ModuleManager.cpp">
+      <Filter>Client\Managers\ModuleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Colors.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\HudEditor.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\AutoScale.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\Arraylist.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\BlockHighlight.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\BreakIndicators.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\CustomFov.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\ESP.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\Fullbright.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\ItemPhysics.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Misc\TestModule.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\AutoSprint.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\Velocity.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\ModuleBase\Module.cpp">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\NotificationManager\NotificationManager.cpp">
+      <Filter>Client\Managers\NotificationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Managers\InputManager\MouseInput.cpp">
+      <Filter>Client\Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Libs\glm\glm\detail\glm.cpp">
+      <Filter>Libs\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glm\glm\glm.cppm">
+      <Filter>Libs\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\imgui.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\imgui_demo.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\imgui_draw.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\imgui_tables.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\imgui_widgets.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\impl\imgui_impl_dx11.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\impl\imgui_impl_dx12.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\imgui\impl\imgui_impl_win32.cpp">
+      <Filter>Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\kiero\kiero.cpp">
+      <Filter>Libs\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Renderer\D3D12Overlay.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGuiRender.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\MCRender.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Runtime\GameData.cpp">
+      <Filter>SDK\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Core\Client\ClientInstance.cpp">
+      <Filter>SDK\Core\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Actor\Actor.cpp">
+      <Filter>SDK\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Item\ItemStack.cpp">
+      <Filter>SDK\World\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Item\ItemStackBase.cpp">
+      <Filter>SDK\World\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Level\Level.cpp">
+      <Filter>SDK\World\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Actor\Player\LocalPlayer.cpp">
+      <Filter>SDK\World\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Level\Minecraft.cpp">
+      <Filter>SDK\World\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\World\Actor\Player\Player.cpp">
+      <Filter>SDK\World\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Render\LevelRendererPlayer.cpp">
+      <Filter>SDK\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Input\MouseDevice.cpp">
+      <Filter>SDK\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Text\MCTextFormat.cpp">
+      <Filter>SDK\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ColorUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StringUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MemoryUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\NetworkUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\TimerUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClInclude Include="Client\Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\CommandManager.h">
+      <Filter>Client\Managers\CommandManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\BindCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\ClientNameCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\CommandBase.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\ConfigCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\DevTools.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\EjectCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\FriendCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\ToggleCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\CommandManager\Commands\UnbindCommand.h">
+      <Filter>Client\Managers\CommandManager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ConfigManager\ConfigManager.h">
+      <Filter>Client\Managers\ConfigManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\FontManager\FontManager.h">
+      <Filter>Client\Managers\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\FriendManager\FriendManager.h">
+      <Filter>Client\Managers\FriendManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\HookManager.h">
+      <Filter>Client\Managers\HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\DirectX\PresentHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\DirectX\ResizeBuffersHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\DirectX\ResizeBuffers1Hook.h">
+      <Filter>Client\Managers\HookManager\Hooks\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\FuncHook.h">
+      <Filter>Client\Managers\HookManager\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Game\ClientInstanceUpdateHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Game\DisplayClientMessageHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Game\MinecraftGameUpdateHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Game\MultiPlayerLevelSubTickHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Game\SendChatMessageHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Options\GetGammaHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Options\GetHideHandHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Options\GetPerspectiveHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\ScreenViewSetupAndRenderHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\DrawImageHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\DrawNinesliceHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\DrawTextHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\GetFovHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\ItemRendererRenderHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\LevelRendererRenderLevelHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\RenderHitSelectHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\RenderItemInHandHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\RenderItemInOffhandHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Render\RenderOutlineSelectionHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\World\DimensionGetTimeOfDayHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Input\KeyMapHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\InputManager\MouseInput.h">
+      <Filter>Client\Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Input\MouseInputHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Input\GrabCursorHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Input\ApplyTurnDeltaHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Input\InputPoller.h">
+      <Filter>Client\Managers\HookManager\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Network\ReceivePacketHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\HookManager\Hooks\Network\SendPacketHook.h">
+      <Filter>Client\Managers\HookManager\Hooks\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\ModuleManager.h">
+      <Filter>Client\Managers\ModuleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Colors.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Notification.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\HudEditor.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\AutoScale.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\Arraylist.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\BlockHighlight.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\BreakIndicators.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\CustomFov.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\ESP.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\Fullbright.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\Item\ItemActor.h">
+      <Filter>SDK\World\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\AutoSprint.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\Velocity.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Module.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\BoolSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\ColorSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\EnumSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\KeybindSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\FontSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\Setting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\SliderSetting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\Vec3Setting.h">
+      <Filter>Client\Managers\ModuleManager\Modules\ModuleBase\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\NotificationManager\NotificationManager.h">
+      <Filter>Client\Managers\NotificationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\curl.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\curlver.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\easy.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\header.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\mprintf.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\multi.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\options.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\stdcheaders.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\system.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\typecheck-gcc.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\urlapi.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\curl\websockets.h">
+      <Filter>Libs\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\config\config.h">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\config\macro.h">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\config\version.h">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\container\dense_map.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\container\dense_set.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\container\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\container\table.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\algorithm.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\any.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\attribute.h">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\bit.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\compressed_pair.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\enum.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\family.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\hashed_string.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\ident.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\iterator.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\memory.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\monostate.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\ranges.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\tuple.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\type_info.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\type_traits.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\core\utility.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\component.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\entity.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\group.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\handle.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\helper.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\mixin.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\observer.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\organizer.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\ranges.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\registry.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\runtime_view.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\snapshot.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\sparse_set.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\storage.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entity\view.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\entt.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\graph\adjacency_matrix.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\graph\dot.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\graph\flow.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\graph\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\locator\locator.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\adl_pointer.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\container.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\context.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\factory.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\meta.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\node.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\pointer.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\policy.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\range.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\resolve.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\template.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\type_traits.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\meta\utility.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\poly\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\poly\poly.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\process\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\process\process.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\process\scheduler.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\resource\cache.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\resource\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\resource\loader.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\resource\resource.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\signal\delegate.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\signal\dispatcher.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\signal\emitter.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\signal\fwd.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\entt\signal\sigh.hpp">
+      <Filter>Libs\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fonts\font.h">
+      <Filter>Libs\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\compute_common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\compute_vector_decl.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\compute_vector_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\qualifier.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\setup.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_float.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_half.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_mat4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_quat.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_vec1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_vec2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_vec3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\type_vec4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_features.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_fixes.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_noise.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_swizzle.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_swizzle_func.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\detail\_vectorize.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\exponential.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_clip_space.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_projection.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_transform.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_double.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_double_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_exponential.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_float.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_float_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_geometric.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_transform.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_constants.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_int_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_packing.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_reciprocal.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_uint_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\scalar_ulp.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool1_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_bool4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double1_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_double4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float1_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float2_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float3_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_float4_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int1_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_int4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_packing.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_reciprocal.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint1_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint2_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint3_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_uint4_sized.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\vector_ulp.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\ext\_matrix_vectorize.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\fwd.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\geometric.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\glm.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\bitfield.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\color_space.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\constants.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\epsilon.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\matrix_access.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\matrix_integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\matrix_inverse.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\matrix_transform.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\noise.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\packing.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\quaternion.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\random.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\reciprocal.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\round.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\type_aligned.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\type_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\type_ptr.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\ulp.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtc\vec1.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\associated_min_max.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\bit.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\closest_point.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\color_encoding.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\color_space.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\common.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\compatibility.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\component_wise.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\dual_quaternion.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\easing.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\euler_angles.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\extend.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\extended_min_max.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\exterior_product.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\fast_exponential.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\fast_square_root.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\fast_trigonometry.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\functions.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\gradient_paint.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\hash.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\intersect.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\io.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\log_base.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_cross_product.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_decompose.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_factorisation.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_interpolation.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_major_storage.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_operation.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_query.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\mixed_product.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\norm.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\normal.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\normalize_dot.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\number_precision.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\optimum_pow.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\orthonormalize.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\pca.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\perpendicular.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\polar_coordinates.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\projection.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\quaternion.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\range.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\raw_data.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\rotate_vector.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\scalar_multiplication.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\scalar_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\spline.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\std_based_type.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\string_cast.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\texture.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\transform.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\transform2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\type_aligned.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\type_trait.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\vector_angle.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\vector_query.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\vec_swizzle.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\gtx\wrap.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\integer.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat2x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat2x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat2x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat3x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat3x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat3x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat4x2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat4x3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\mat4x4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\matrix.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\packing.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\common.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\exponential.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\geometric.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\integer.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\matrix.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\neon.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\packing.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\platform.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\trigonometric.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\simd\vector_relational.h">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\trigonometric.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\vec2.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\vec3.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\vec4.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glm\glm\vector_relational.hpp">
+      <Filter>Libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imconfig.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imgui_internal.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\impl\imgui_impl_dx11.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\impl\imgui_impl_dx12.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\impl\imgui_impl_win32.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_rectpack.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_textedit.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\imstb_truetype.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\imgui\stb_image.h">
+      <Filter>Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\json.hpp">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\kiero\kiero.h">
+      <Filter>Libs\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Access.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Callable.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\CompileTime.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Concepts.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\c\libhat.h">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Defines.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\FixedString.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\MemoryProtector.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Process.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Result.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Scanner.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Signature.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\StringLiteral.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\libhat\libhat\Traits.hpp">
+      <Filter>Libs\libhat</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\MinHook.h">
+      <Filter>Libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\xorstr.hpp">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Renderer\D3D12Overlay.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGuiRender.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MCRender.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\ActorRenderData.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\BaseActorRenderContext.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\Camera.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\ItemRenderer.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\MatrixStack.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\ScreenContext.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Runtime\Addresses.h">
+      <Filter>SDK\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Runtime\GameData.h">
+      <Filter>SDK\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Input\Keyboard.h">
+      <Filter>SDK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Input\MouseAction.h">
+      <Filter>SDK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Input\MouseDevice.h">
+      <Filter>SDK\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Types\HashedString.h">
+      <Filter>SDK\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Item\Item.h">
+      <Filter>SDK\World\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Item\ItemIDs.h">
+      <Filter>SDK\World\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Item\ItemStack.h">
+      <Filter>SDK\World\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Item\ItemStackBase.h">
+      <Filter>SDK\World\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Item\ItemStackNetIdVariant.h">
+      <Filter>SDK\World\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Inventory\Inventory.h">
+      <Filter>SDK\World\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Inventory\PlayerInventory.h">
+      <Filter>SDK\World\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Misc\TestModule.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\MinecraftPackets.h">
+      <Filter>SDK\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ActorEventPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\AnimatePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ChunkRadiusUpdatedPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\CommandRequestPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ContainerClosePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ContainerOpenPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\EmotePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\InteractPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\InventoryTransactionPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ItemStackRequestPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\LevelEventPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\LevelSoundEventPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\LoginPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\MovePlayerPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\Packet.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\PacketIDs.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ActorPacketTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\CommandTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ContainerTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\GameTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\InteractionTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\InventoryTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\PlayerInputTypes.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\ScorePacketInfo.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\TextPacketBody.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\PlayerAuthInputPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\PlayerActionPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\PlayerHotbarPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\RequestChunkRadiusPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\RemoveActorPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\RemoveObjectivePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetActorMotionPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetDifficultyPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetDisplayObjectivePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetHealthPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetPlayerGameTypePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetScorePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\SetTimePacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\Packet\TextPacket.h">
+      <Filter>SDK\Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Network\PacketSender.h">
+      <Filter>SDK\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\GameRenderer.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\LevelRenderer.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\LevelRendererPlayer.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\Matrix.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\Actor.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\ActorCategory.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\ActorDimensionRef.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\ActorId.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\ActorSwingSource.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\AABBShapeComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorRotationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorTypeComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\OnGroundFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\RuntimeIDComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\StateVectorComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\EntityContext.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\EntityRegistry.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\EntityTraits.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\GameMode\GameMode.h">
+      <Filter>SDK\World\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\GameMode\InteractionResult.h">
+      <Filter>SDK\World\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\EntityId.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\EntityIdTraits.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\IEntityComponent.h">
+      <Filter>SDK\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\Level.h">
+      <Filter>SDK\World\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\BlockSource.h">
+      <Filter>SDK\World\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\Block\Block.h">
+      <Filter>SDK\World\Level\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\Block\BlockProperty.h">
+      <Filter>SDK\World\Level\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\Block\BlockType.h">
+      <Filter>SDK\World\Level\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\Player\LocalPlayer.h">
+      <Filter>SDK\World\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\Minecraft.h">
+      <Filter>SDK\World\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Level\GameSession.h">
+      <Filter>SDK\World\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\Mob.h">
+      <Filter>SDK\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\ItemPhysics.h">
+      <Filter>Client\Managers\ModuleManager\Modules\Category\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Actor\Player\Player.h">
+      <Filter>SDK\World\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\HookGuard.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Client\ClientInstance.h">
+      <Filter>SDK\Core\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Client\GameCore.h">
+      <Filter>SDK\Core\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Types\mce.h">
+      <Filter>SDK\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Client\MinecraftGame.h">
+      <Filter>SDK\Core\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\Client\Platform_GameCore.h">
+      <Filter>SDK\Core\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\GUI\GuiData.h">
+      <Filter>SDK\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\GUI\GuiMessage.h">
+      <Filter>SDK\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\GUI\ScreenView.h">
+      <Filter>SDK\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\GUI\UIControl.h">
+      <Filter>SDK\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Core\GUI\VisualTree.h">
+      <Filter>SDK\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\MinecraftUIRenderContext.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\ItemInHandRenderer.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\RectangleArea.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\TextMeasureData.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render\CaretMeasureData.h">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Runtime\GameContext.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Text\MCTextFormat.h">
+      <Filter>SDK\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ColorUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Maths.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\MemoryUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\NetworkUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StringUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\TimerUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <None Include="Libs\glm\glm\detail\func_common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_common_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_exponential.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_exponential_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_geometric.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_geometric_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_integer_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_matrix.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_matrix_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_packing.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_packing_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_trigonometric.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_vector_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_half.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat2x2.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat2x3.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat2x4.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat3x2.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat3x3.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat3x4.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat4x2.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat4x3.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat4x4.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_quat.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_quat_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_vec1.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_vec2.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_vec3.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_vec4.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\detail\type_vec4_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_clip_space.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_projection.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\matrix_transform.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_common_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_exponential.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_geometric.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_transform.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\quaternion_trigonometric.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_constants.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_packing.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_reciprocal.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\scalar_ulp.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_packing.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_reciprocal.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\ext\vector_ulp.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\bitfield.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\color_space.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\constants.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\epsilon.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\matrix_access.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\matrix_inverse.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\matrix_transform.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\noise.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\packing.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\quaternion.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\quaternion_simd.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\random.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\round.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\type_precision.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\type_ptr.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtc\ulp.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\associated_min_max.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\bit.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\closest_point.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\color_encoding.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\color_space.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\color_space_YCoCg.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\common.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\compatibility.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\component_wise.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\dual_quaternion.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\easing.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\euler_angles.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\extend.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\extended_min_max.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\exterior_product.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\fast_exponential.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\fast_square_root.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\fast_trigonometry.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\float_notmalize.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\functions.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\gradient_paint.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\handed_coordinate_space.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\hash.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\integer.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\intersect.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\io.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\log_base.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_cross_product.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_decompose.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_factorisation.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_interpolation.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_major_storage.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_operation.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_query.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\matrix_transform_2d.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\mixed_product.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\norm.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\normal.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\normalize_dot.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\optimum_pow.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\orthonormalize.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\pca.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\perpendicular.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\polar_coordinates.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\projection.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\quaternion.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\raw_data.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\rotate_vector.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\scalar_relational.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\spline.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\std_based_type.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\string_cast.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\texture.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\transform.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\transform2.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\type_aligned.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\type_trait.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\vector_angle.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\vector_query.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\glm\glm\gtx\wrap.inl">
+      <Filter>Libs\glm</Filter>
+    </None>
+    <None Include="Libs\libhat\libhat\Scanner.inl">
+      <Filter>Libs\libhat</Filter>
+    </None>
+  </ItemGroup>
+</Project>

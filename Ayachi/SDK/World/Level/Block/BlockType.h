@@ -10,8 +10,6 @@
 #include "../BlockSource.h"
 #include "BlockProperty.h"
 
-class Block;
-
 class BlockType {
 public:
 	[[nodiscard]] const std::string& getDescriptionId() const noexcept {

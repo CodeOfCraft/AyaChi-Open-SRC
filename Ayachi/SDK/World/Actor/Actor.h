@@ -40,7 +40,6 @@
 #include "../Entity/Components/VerticalCollisionFlagComponent.h"
 #include "../Entity/Components/WasOnGroundFlagComponent.h"
 
-class Dimension;
 class ItemStack;
 class Level;
 

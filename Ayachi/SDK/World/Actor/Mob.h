@@ -3,8 +3,6 @@
 
 #include "Actor.h"
 
-class ItemStack;
-
 class Mob : public Actor {
 public:
 	void setSprinting(bool sprinting) {

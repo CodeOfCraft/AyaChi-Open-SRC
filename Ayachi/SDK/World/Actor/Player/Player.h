@@ -4,7 +4,6 @@
 #include "../Mob.h"
 #include "../../GameMode/GameMode.h"
 
-class PacketSender;
 class PlayerInventory;
 
 class Player : public Mob {

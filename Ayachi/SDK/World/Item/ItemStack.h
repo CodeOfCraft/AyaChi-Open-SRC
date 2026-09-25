@@ -3,9 +3,6 @@
 #include "ItemStackBase.h"
 #include "ItemStackNetIdVariant.h"
 
-class Block;
-class CompoundTag;
-
 class ItemStack : public ItemStackBase {
 public:
 	static ItemStack* constructFromBlock(

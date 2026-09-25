@@ -2073,19 +2073,46 @@
     <ClInclude Include="SDK\World\Entity\Components\AABBShapeComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorGameTypeComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorHeadRotationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\ActorRotationComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\ActorTypeComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\ActorUniqueIDComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\HorizontalCollisionFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\IsDeadFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\MobBodyRotationComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\OnGroundFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\RenderRotationComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\RuntimeIDComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\Components\StateVectorComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\VerticalCollisionFlagComponent.h">
+      <Filter>SDK\World\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\World\Entity\Components\WasOnGroundFlagComponent.h">
       <Filter>SDK\World\Entity\Components</Filter>
     </ClInclude>
     <ClInclude Include="SDK\World\Entity\EntityContext.h">
